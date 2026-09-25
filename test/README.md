@@ -16,4 +16,4 @@ El resultado devuelto por la aplicación para cada caso se muestra a continuaci�
 ![Resultado imagen sin QR](/test/resultados/sin_qr.JPG)
 
 * Imagen con oclusión parcial
-![Resultado con oclusión parcial](/test/resultados/oclusion_parcial.JPG)
+![Resultado con oclusión parcial](/test/resultados/oclusion_parcial_qr.JPG)
