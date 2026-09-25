@@ -2,12 +2,12 @@ from googleDrive import crearRecurso
 
 from googleapiclient.errors import HttpError
 from googleapiclient.http import MediaFileUpload
-import re
+import re # soporte para expresiones regulares
 
 import cv2 as cv
 
 recursoDrive = crearRecurso()
-nombreArchivo = "factura1.jpg"
+nombreArchivo = './test/img/original.jpg'
 
 def detectarQR():
     print("Detectando el código QR...")
@@ -55,6 +55,7 @@ def subirArchivo(numeroCliente):
 datosExtraidos = detectarQR()
 if datosExtraidos:
     numCliente = buscarNumeroDeCliente(datosExtraidos)
+    print(f"El número de cliente es: {numCliente}")
     subirArchivo(numCliente)
 else:
     print("No se detecto ningún código QR")
