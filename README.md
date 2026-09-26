@@ -22,6 +22,14 @@ Las bibiliotecas que necesita esta apliación son las siguientes:
 ## Pruebas
 En el siguiente [enlace](/test/README.md) se puede observar las condiciones bajo las que se probo esta apliacación, por ejemplo, foto de una factura con poca luz, foto con oclusión parcial, etc.
 
+En las siguiente imagenes se muestran las detecciones en las condiciones en las que si se pudo localizar el código QR.
+
+![Deteccion imagen original](/test/resultados_deteccion/original.jpg)
+
+![Detección imagen con rayadura](/test/resultados_deteccion/danio1.jpg)
+
+![Detección imagen con poca luz](/test/resultados_deteccion/poca_luz.jpg)
+
 ## Referencias
 * [Clase QRCodeDetector de OpenCV](https://docs.opencv.org/5.0/main_modules/classcv_1_1QRCodeDetector.html)
 * [Documentación de la API de Google Drive](https://developers.google.com/workspace/drive/api/guides/about-sdk)
