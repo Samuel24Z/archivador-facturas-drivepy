@@ -3,7 +3,7 @@ Esta aplicación tiene como objetivo archivar automáticamente facturas en forma
 
 El diagrama de bloques del funcionamiento de esta aplicación se muestra a continuación
 
-![Diagrama de bloques](/img/diagrama_bloques.JPG)
+![Diagrama de bloques](/img/diagrama_bloques_app.JPG)
 
 A continuación se describe con más detalle los procsesos que ejecuta esta aplicación.
 
